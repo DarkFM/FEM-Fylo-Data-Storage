@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Frontend Mentor | Fylo data storage component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+                position: absolute;
+                bottom: 10px;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <section class="options">
+                <img class="logo" src="/images/logo.svg" alt="Fylo Logo" />
+                <div class="action-icons">
+                    <div class="action-icon">
+                        <img src="/images/icon-document.svg" alt="Document icon" />
+                    </div>
+                    <div class="action-icon">
+                        <img src="/images/icon-folder.svg" alt="Folder icon" />
+                    </div>
+                    <div class="action-icon">
+                        <img src="/images/icon-upload.svg" alt="Upload icon" />
+                    </div>
+                </div>
+            </section>
+            <section class="metrics">
+                <p class="metrics__info">
+                    You’ve used <span class="highlight-text">815 GB</span> of your storage
+                </p>
+                <div class="progress-bar">
+                    <div class="progress-bar-line-container">
+                        <div class="progress-bar-line"></div>
+                    </div>
+                    <div class="progress-bar__range">
+                        <span class="highlight-text">0 GB</span>
+                        <span class="highlight-text">1000 GB</span>
+                    </div>
+                </div>
+                <div class="metrics__storage-left">
+                    <span class="large-font">185</span>
+                    <span class="small-title">GB Left</span>
+                </div>
+            </section>
+        </main>
+
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/DarkFM" target="_blank">Clinton Bestmann</a>.
+        </div>
+    </body>
+</html>
