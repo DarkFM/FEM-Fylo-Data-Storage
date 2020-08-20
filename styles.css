@@ -140,8 +140,8 @@ body {
     position: relative;
     border-radius: var(--global-border-radius);
 
-    animation: fillInRight 1s ease-out;
-    animation-delay: 2s;
+    animation: fillInRight 1.5s ease-out;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -184,7 +184,7 @@ body {
     vertical-align: middle;
     
     animation: appearFromBottom 1s ease-out;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-fill-mode: backwards;
 }
 
@@ -192,8 +192,10 @@ body {
 
 @media(min-width: 650px) {
     body {
+        background-color: var(--very-dark-blue);
         background-image: url("/images/bg-desktop.png");
-        background-position: center;
+        background-position: 0 120%;
+        background-size: contain;
     }
 
     .container {
@@ -231,7 +233,7 @@ body {
         transform: translateY(-50%);
 
         animation: appearFromBottomDesktop 1s ease-out;
-        animation-delay: 1s;
+        animation-delay: 3s;
         animation-fill-mode: backwards;
     }
 
