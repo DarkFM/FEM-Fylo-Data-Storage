@@ -194,8 +194,8 @@ body {
     body {
         background-color: var(--very-dark-blue);
         background-image: url("/images/bg-desktop.png");
-        background-position: 0 120%;
-        background-size: 190rem;
+        background-position: 0 220%;
+        background-size: 250rem;
     }
 
     .container {
